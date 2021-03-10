@@ -25,7 +25,8 @@ public class HuffmanTree {
                 " the best known English example being A quick brown fox jumps over the lazy dog. As well as" +
                 " containing some rather amusing gems, the pangrams in languages other than English can be " +
                 "occasionally useful for designers of all sorts. For that reason I have resurrected the page of " +
-                "pangrams here, pretty much as it was in Wikipedia.";
+                "pangrams here, pretty much as it was in Wikipedia." +
+                "ABCDEFGHIJKLMNOPQRSUVWXYZ1234567890!?:();ABCDEFGHIJKLMNOPQRSUVWXYZ1234567890!?:)";
         root = null;
     }
 
