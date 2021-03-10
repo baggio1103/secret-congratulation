@@ -6,7 +6,7 @@ import java.awt.*;
 public class Application extends Canvas{
 
     public static void start(){
-        JFrame frame = new JFrame("dasdasdasda");
+        JFrame frame = new JFrame("Happy 8th of March");
         Panel panel = new Panel();
 
         Color[] colors = new Color[]{new Color(217, 255, 205),
@@ -28,14 +28,14 @@ public class Application extends Canvas{
 
 
         JTextArea input = new JTextArea();
-        input.setBounds(25, 130, 200, 200);
+        input.setBounds(25, 110, 200, 220);
         input.setFont(new Font("Courier", Font.ITALIC, 12));
         input.setBackground(colors[1]);
         input.setLineWrap(true);
         input.setText("\n\n");
 
         JTextArea output = new JTextArea();
-        output.setBounds(275, 130, 200, 200);
+        output.setBounds(275, 110, 200, 220);
         output.setFont(new Font("Courier", Font.ITALIC, 12));
         output.setBackground(colors[2]);
         output.setLineWrap(true);
@@ -44,6 +44,7 @@ public class Application extends Canvas{
         label.setBounds(100, 30, 300, 50);
         label.setFont(new Font("Courier", Font.ITALIC, 16));
 //        label.setText("Reveal && Conceal your letter!");
+        label.setText("Make a Secret Congratulation!");
 
         HuffmanTree tree = constructTree();
 
